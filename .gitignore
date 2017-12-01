@@ -1,0 +1,8 @@
+build-TCP-IP-Chat-Desktop-Debug/
+*.pro.user
+*.o
+Makefile
+moc_*
+ui_*.h
+DOCUMENTATION/
+
