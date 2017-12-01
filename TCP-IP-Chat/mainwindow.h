@@ -3,6 +3,10 @@
 
 #include <QMainWindow>
 
+#include "pagechat.h"
+#include "pagepartage.h"
+#include "server.h"
+
 namespace Ui {
 class MainWindow;
 }

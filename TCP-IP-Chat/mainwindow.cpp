@@ -6,6 +6,10 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    PageChat *chatDefaut = new PageChat(this);
+    PagePartage *partageDefaut = new PagePartage(this);
+    ui->tabWidget->addTab(chatDefaut, "Discussion");
+    ui->tabWidget->addTab(partageDefaut, "Partage de fichiers");
 }
 
 MainWindow::~MainWindow()
